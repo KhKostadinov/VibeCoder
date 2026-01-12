@@ -31,6 +31,7 @@ Used functions:
  - **promptLogger()** - this function creates/extends log file of the prompts and the outputs you use. Each log is separated by timestamp. It uses 2 arguments:
     - prompt: str - stores prompt/output in string format which asfterwards added to the log file.
     - logFile: str - stores the name of the log file, by default it is 'promptLog.txt' but can be changed.
- - **main()** - this is the main ("surprise") function where the magic happens - user input is collected, commands are recognized, interaction with LLM is handled, logs are
+ - **coderV4()** - this is the main function where the magic happens - user input is collected, commands are recognized, interaction with LLM is handled, logs are
    being written and in the end we (are supposed to) have functional Python code (this isn't strictly restricted to Python code, however, and it is easily adjustable to generate
    code for other languages). 
+
