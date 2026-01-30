@@ -1,7 +1,7 @@
 [project]
 name = "coding"
 version = "0.1.0"
-description = "Add your description here"
+description = "Minimalistic CLI tool for vibe coding."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
